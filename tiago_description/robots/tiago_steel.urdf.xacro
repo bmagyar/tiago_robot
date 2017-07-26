@@ -10,6 +10,8 @@
 <robot  xmlns:xacro="http://www.ros.org/wiki/xacro"
         name="tiago" >
 
+  <xacro:property name="M_PI" value="3.141592653589793" />
+
   <!-- The following included files set up definitions of parts of the robot body -->
   <!-- Base -->
   <xacro:include filename="$(find pmb2_description)/urdf/base/base_sensors.urdf.xacro" />
