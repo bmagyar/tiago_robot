@@ -14,7 +14,7 @@
   <gazebo>
     <plugin filename="libgazebo_ros_control.so" name="gazebo_ros_control">
       <ns></ns>
-      <robotSimType>pal_hardware_gazebo/PalHardwareGazebo</robotSimType>
+      <robotSimType>gazebo_ros_control/DefaultRobotHWSim</robotSimType>
       <robotNamespace></robotNamespace>
       <controlPeriod>0.001</controlPeriod>
     </plugin>
@@ -72,6 +72,6 @@
   </gazebo>
 
   <!-- define global properties -->
-  <property name="M_PI" value="3.1415926535897931" />
+  <!--xacro:property name="M_PI" value="3.1415926535897931" /-->
 
 </robot>

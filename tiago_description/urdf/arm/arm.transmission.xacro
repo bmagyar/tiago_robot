@@ -17,10 +17,10 @@
         <mechanicalReduction>${reduction}</mechanicalReduction>
       </actuator>
       <joint name="${name}_${number}_joint">
-        <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
-        <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+        <hardwareInterface>PositionJointInterface</hardwareInterface>
 <!--
-        <hardwareInterface>hardware_interface/JointModeInterface</hardwareInterface>
+        <hardwareInterface>EffortJointInterface</hardwareInterface>
+        <hardwareInterface>JointModeInterface</hardwareInterface>
 -->
       </joint>
     </transmission>

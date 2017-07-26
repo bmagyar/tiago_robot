@@ -17,7 +17,7 @@
         <mechanicalReduction>${reduction}</mechanicalReduction>
       </actuator>
       <joint name="${name}_${number}_joint">
-        <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+        <hardwareInterface>PositionJointInterface</hardwareInterface>
       </joint>
     </transmission>
   </xacro:macro>
@@ -38,13 +38,13 @@
         <role>joint1</role>
         <offset>0.0</offset>
         <mechanicalReduction>${jnt_reduction_1}</mechanicalReduction>
-        <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+        <hardwareInterface>PositionJointInterface</hardwareInterface>
       </joint>
       <joint name="${name}_${number_2}_joint">
         <role>joint2</role>
         <offset>0.0</offset>
         <mechanicalReduction>${jnt_reduction_2}</mechanicalReduction>
-        <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+        <hardwareInterface>PositionJointInterface</hardwareInterface>
       </joint>
     </transmission>
   </xacro:macro>
