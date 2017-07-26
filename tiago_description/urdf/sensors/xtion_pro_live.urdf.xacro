@@ -22,7 +22,7 @@
           Rotate origin in mesh, to match the orientation of the base link and bypass the bug.
 
 -->
-<robot xmlns:xacro="http://ros.org/wiki/xacro">
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
 
   <xacro:include filename="$(find tiago_description)/urdf/sensors/openni.gazebo.xacro" />
 

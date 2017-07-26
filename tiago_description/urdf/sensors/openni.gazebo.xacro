@@ -15,7 +15,7 @@
   Note that the depth 16UC1 image is NOT published in simulation.
   Note that the IR image is NOT published in simulation.
 -->
-<robot xmlns:xacro="http://ros.org/wiki/xacro">
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
 
   <xacro:macro name="openni_camera_gazebo_v0" params="name">
     <gazebo reference="${name}_rgb_frame">
